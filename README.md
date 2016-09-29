@@ -3,6 +3,8 @@
 Scaffolding for simple AngularJs 1 projects.
 Utilizing but not entirely leveraging babel(ES6) and webpack for building out application.
 
+TODO: Create build script to package compiled JS for Deployment
+
 ###Getting Started###
 
 There are two methods for getting started with this repo.

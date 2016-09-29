@@ -2,7 +2,7 @@
 
 angular.module('sampleApp').service('SampleService', ['$resource', function ($resource) {
 	var self = this;
-	var resource = $resource('http://URL/:id', {}, {
+	var resource = $resource('http://reduxblog.herokuapp.com/api/posts/:id', {}, {
 		update: { method: 'patch' },
 		create: { method: 'post' }
 	});
